@@ -12,6 +12,7 @@ export class FilhoComponent implements OnInit {
   @Output() AlteradorEstilo;
 
   @Input() metodo :any=null;
+
   constructor() {
     this.Texto="";
     this.Estilos="";

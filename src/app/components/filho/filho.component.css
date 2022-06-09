@@ -2,13 +2,14 @@
     border: solid;
     border-color: red;
     margin: 20px;
-    background-color: aliceblue;
+    background-color: red;
 }
 
 .black {
     border: solid;
+    color: white;
     border-color: black;
     text-align: center;
     margin: 20px;
-    background-color: blanchedalmond;
+    background-color: black;
 }

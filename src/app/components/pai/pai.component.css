@@ -2,12 +2,13 @@
     border: dotted;
     border-color: green;
     text-align: center;
-    background-color: goldenrod;
+    background-color: green;
 }
 
 .blue {
     border: dotted;
     border-color: blue;
+    color: white;
     text-align: center;
-    background-color: darkgrey;
+    background-color: blue;
 }
