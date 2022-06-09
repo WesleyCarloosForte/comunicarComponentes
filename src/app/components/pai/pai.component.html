@@ -1,0 +1,11 @@
+<div [class]="Estilos">
+    <div>
+        <H1>Componente pai</H1>
+        <button (click)="setEstilo('black')">black</button>
+        <button (click)="setEstilo('red')">Red</button>
+    </div>
+    <div>
+        <input [(ngModel)]="TextoEnviar">
+    </div>
+    <app-filho [Texto]="TextoEnviar" [Estilos]="EstilosEnviar" [metodo]="modificarMetodo" (AlteradorEstilo)="alterarEstilo($event)"></app-filho>
+</div>

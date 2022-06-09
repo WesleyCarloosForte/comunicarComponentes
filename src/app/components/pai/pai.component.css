@@ -1,0 +1,13 @@
+.green {
+    border: dotted;
+    border-color: green;
+    text-align: center;
+    background-color: goldenrod;
+}
+
+.blue {
+    border: dotted;
+    border-color: blue;
+    text-align: center;
+    background-color: darkgrey;
+}
